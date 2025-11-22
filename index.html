@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="fa">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>داستان زهرا — بلاگ</title>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#fff8f3;
+      --card:#fff;
+      --accent:#c76b5b;
+      --muted:#7b6f6a;
+      --shadow: 0 10px 30px rgba(0,0,0,0.08);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;font-family:'Vazirmatn',system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+      background:linear-gradient(180deg,var(--bg),#fffdfa);
+      color:#2b2623;line-height:1.72;direction:rtl;
+      -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
+      padding:24px;
+      display:flex;align-items:flex-start;justify-content:center;
+    }
+    .container{
+      width:100%;max-width:760px;
+      margin:20px 0;
+    }
+    header.hero{
+      background:linear-gradient(135deg,rgba(199,107,91,0.12),rgba(199,107,91,0.06));
+      border-radius:18px;padding:22px;box-shadow:var(--shadow);
+      display:flex;gap:16px;align-items:center;overflow:hidden;
+    }
+    .hero .badge{
+      min-width:86px;height:86px;border-radius:14px;flex:0 0 86px;
+      background:linear-gradient(180deg,var(--accent),#f6b19d);display:flex;align-items:center;justify-content:center;
+      color:white;font-weight:700;font-size:18px;box-shadow:0 6px 18px rgba(199,107,91,0.18);
+    }
+    .hero .meta{flex:1}
+    h1.title{margin:0;font-size:20px;letter-spacing:0.2px}
+    p.lead{margin:8px 0 0;color:var(--muted);font-size:14px}
+
+    .post{
+      background:var(--card);margin-top:18px;border-radius:16px;padding:20px 20px 28px;box-shadow:var(--shadow);
+    }
+    .post .intro{
+      display:flex;gap:14px;align-items:flex-start;margin-bottom:14px;
+    }
+    .avatar{
+      width:68px;height:68px;border-radius:12px;flex:0 0 68px;background:linear-gradient(180deg,#fff,rgba(0,0,0,0.02));display:grid;place-items:center;font-weight:700;color:var(--accent);
+      box-shadow:0 6px 18px rgba(0,0,0,0.04);
+    }
+    .meta small{color:var(--muted);display:block}
+
+    .content p{margin:14px 0;font-size:16px}
+    .content p:first-of-type{margin-top:6px}
+
+    blockquote{margin:18px 0;padding:14px 16px;border-radius:12px;background:linear-gradient(180deg,#fffefc,#fffbf9);border-left:4px solid rgba(199,107,91,0.18);color:#6b5b57}
+
+    .footer{
+      margin-top:18px;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
+    }
+    .chip{padding:8px 12px;border-radius:999px;border:1px solid rgba(43,38,35,0.06);font-size:13px;background:#fff}
+
+    /* mobile fine-tuning */
+    @media (max-width:420px){
+      body{padding:14px}
+      .hero{padding:16px}
+      .hero .badge{min-width:72px;height:72px}
+      .avatar{width:56px;height:56px}
+      .post{padding:16px}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="hero">
+      <div class="badge"></div>
+      <div class="meta">
+        <h1 class="title">داستانی از دل خاک — زهرا</h1>
+      </div>
+    </header>
+
+    <article class="post" role="article">
+      <div class="intro">
+        <div class="avatar"></div>
+        <div class="meta">
+          <strong>داستان دختری از دل خاک</strong>
+        </div>
+      </div>
+
+      <div class="content">
+        <p>در دل کوهستان‌های آرام و سبز، جایی که مه صبحگاهی روی پشت‌بام‌های کاه‌گِلی می‌نشست، دختری زندگی می‌کرد به نام <strong>زهرا</strong>. دختری روستایی با چشمانی که همیشه خستگی را پشت برق امید پنهان می‌کرد. زندگی‌اش ساده بود اما قلبش پر از رؤیایی که هیچ‌وقت فرصت شکوفایی پیدا نکرده بود.</p>
+
+        <p>سال‌ها پیش، در یک بعدازظهر سرد پاییزی، وقتی باد از لابه‌لای درختان خشکیده‌ی گردو می‌گذشت، حادثه‌ای رخ داد که همه چیز را تغییر داد. <strong>مادرش هنگام آوردن هیزم از تپه‌های پشت روستا سقوط کرد</strong>. آن‌قدر شدید که از گردن به پایین فلج شد. از همان روز، تخت چوبی گوشه‌ی اتاق شد خانه‌ی جدیدش؛ اتاقی که بوی داروی گیاهی، عشق و بی‌خوابی در آن پیچیده بود.</p>
+
+        <p>زهرا تنها شانزده سال داشت. همان روز کودکی‌اش تمام شد.</p>
+
+        <p>پدرش، <strong>مردی پیر و آرام</strong>، با دستانی پینه‌بسته، هنوز چند گوسفند لاغر را به دامنه‌ی کوه می‌برد و با همان‌ها و کمی کشاورزی روزگار را می‌گذراند. اما توانش دیگر روز به روز کمتر می‌شد.</p>
+
+        <p>زهرا هم کارهای خانه را انجام می‌داد، هم مادرش را می‌شست، هم غذا می‌داد، هم در سکوت‌های طولانی کنار تختش می‌نشست و برایش شعرهای قدیمی می‌خواند؛ شعرهایی که مادر روزگاری با صدای گرمش برای او زمزمه می‌کرد.</p>
+
+        <p>سال‌ها گذشت.<br>
+        زهرا بزرگ شد… اما هیچ‌وقت فرصت نکرد <strong>دختری کند</strong>.<br>
+        نه جشن عروسی دید، نه خواستگاری جدی آمد. همه می‌دانستند که او نمی‌تواند از مادر و پدرش جدا شود؛ و خودش هم هرگز نمی‌خواست.</p>
+
+        <p>اما روزی رسید که فهمید این زندگی با کشاورزی و چند گوسفند نمی‌چرخد. مادرش به دارو نیاز داشت، پدرش به استراحت، و خودش به روزنه‌ای برای نفس کشیدن.</p>
+
+        <p>در یکی از روزهای خلوت زمستانی، وقتی کنار بخاری هیزمی نشسته بود و تکه‌ای پارچه‌ی رنگ‌و‌رورفته را در دست داشت، جرقه‌ای در ذهنش روشن شد. <strong>تصمیم گرفت وسایل تزئینی درست کند</strong>؛ چیزهایی که شاید بتواند دل کسی را شاد کند و چرخ زندگی کوچک‌شان را هم کمی بچرخاند.</p>
+
+        <p>با تکه‌های چوب خشکیده، گل‌های خشک کوهی، نخ‌های رنگی و سنگ‌های رودخانه، شروع کرد به ساختن آویز، دست‌بند، قاب‌های چوبی و تزئینات کوچک. اولش فقط تجربه بود، اما هر کاری که می‌ساخت انگار بخشی از قلبش را در آن می‌گذاشت.</p>
+
+        <p>وقتی برای اولین بار وسایلش را به بازار هفتگی روستا برد، همه تعجب کردند؛ کسی انتظار نداشت «زهرا‌ی آرام و همیشه خسته» چنین هنر و ظرافتی داشته باشد.</p>
+
+        <p>آن روز، هرچه ساخته بود فروخت.</p>
+
+        <blockquote>
+          با پولش داروی مادر را خرید. 
+          پدرش همان شب با چشمانی نمناک زیر لب گفت:
+          «خدا پشت و پناهت دخترم… تو روشنایی این خونه‌ای.»
+        </blockquote>
+
+        <p>از آن روز، خانه‌شان پر شد از رنگ، نخ، چوب و خنده‌های کوتاهی که مدت‌ها غریب بودند. هر شب کنار تخت مادر می‌نشست، دستش را می‌گرفت و از سفارش‌هایی می‌گفت که رسیده. مادر هم با لبخندی کمرنگ و چشمانی که همه‌ی محبت دنیا در آن بود، نگاهش می‌کرد.</p>
+
+        <p>زهرا هنوز ازدواج نکرده بود، اما دلش دیگر تنها نبود.<br>
+        کارش رونق گرفت، روستایی‌ها حمایتش کردند، و کم‌کم نامش به روستاهای اطراف هم رسید.</p>
+
+        <p>او <strong>با دستان خسته اما دل محکم</strong>, نه‌تنها روزگارش را ساخت، بلکه دنیا را اندکی زیباتر کرد—با وسایل ساده‌ای که از دلِ درد، عشق و امید ساخته می‌شد.</p>
+
+        <p>و هر روز که خورشید از پشت کوه بالا می‌آمد، زهرا می‌دانست هنوز راه سختی پیش رو دارد…<br>
+        اما ایمان داشت که می‌تواند.<br>
+        برای مادرش، برای پدر خاک‌خورده‌اش، و برای دلی که یاد گرفته بود حتی میان غصه‌ها هم شکوفه بدهد.</p>
+
+      </div>
+
+
+
+    </article>
+  </div>
+</body>
+</html>
